@@ -6,5 +6,5 @@ All Actors have their individual Dashboards and Functionalities complete with Re
 
 Technologies Used --
 1. Backend : Spring Boot, Spring Security, JWT
-2. Frontend : Angular 11, Bootstrap, HTML, CSS
+2. Frontend : Angular 11, Bootstrap, HTML, SCSS
 3. Database : MySQL
