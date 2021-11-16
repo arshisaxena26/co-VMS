@@ -1,4 +1,4 @@
-Covid Vaccine Management System 
+## Covid Vaccine Management System 
 
 The Project is designed to accomodate three actors - Beneficiary, Vaccination Centres and District Offices.
 
