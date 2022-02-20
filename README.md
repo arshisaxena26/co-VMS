@@ -8,3 +8,5 @@ Technologies Used --
 1. Backend : Spring Boot, Spring Security, JWT
 2. Frontend : Angular 11, Bootstrap, HTML, SCSS
 3. Database : MySQL
+
+Import Angular Project in VS Code and install ng-modules using : npm install --save-dev @angular-devkit/build-angular
