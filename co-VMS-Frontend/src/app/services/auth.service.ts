@@ -13,13 +13,13 @@ export class AuthService {
   public currentUser: Observable<UserDTO>;
 
   constructor(private http: HttpBaseService) {
-    this.currentUserSubject = new BehaviorSubject<UserDTO>(
-      JSON.parse(sessionStorage.getItem('currentUser') || '{}')
-    );
-    this.currentUser = this.currentUserSubject.asObservable();
+    this.currentUserValue
   }
 
   public get currentUserValue(): UserDTO {
+    this.currentUserSubject = new BehaviorSubject<UserDTO>(
+      JSON.parse(sessionStorage.getItem('currentUser') || '{}')
+    );
     return this.currentUserSubject.value;
   }
 
