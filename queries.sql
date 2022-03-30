@@ -814,5 +814,6 @@ INSERT INTO role VALUES
 (DEFAULT, "BENEFICIARY");
 
 INSERT INTO user VALUES(DEFAULT, "admin", "$2a$08$qDXXnjzvpYYj3OdxylFpQepHtl4cVP8.nrXPKonntNcEr8BCK2GhC","admin");
+-- Admin Password : admin
 
 INSERT INTO user_roles VALUES(1, 1);
