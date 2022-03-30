@@ -813,6 +813,6 @@ INSERT INTO role VALUES
 (DEFAULT, "CENTRE"),
 (DEFAULT, "BENEFICIARY");
 
-INSERT INTO user VALUES(DEFAULT, "admin@admin", "$2y$12$0ySlGPA/.V/YiG7Ad2.7DeMBYwWsDZi9zvn0A4PKtMZwjePrH0e2O","admin");
+INSERT INTO user VALUES(DEFAULT, "admin", "$2a$08$qDXXnjzvpYYj3OdxylFpQepHtl4cVP8.nrXPKonntNcEr8BCK2GhC","admin");
 
 INSERT INTO user_roles VALUES(1, 1);
